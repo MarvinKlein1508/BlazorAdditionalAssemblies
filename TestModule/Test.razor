@@ -1,0 +1,13 @@
+﻿@page "/Test"
+@page "/Test/{Id:int}"
+<h3>Test</h3>
+
+@Id
+
+<p>Press CTRL+SHIFT+R</p>
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+}
